@@ -1,0 +1,204 @@
+.login{
+  background-color: skyblue;
+  text-align: center;
+  justify-content: center;
+  /* margin-left: 10px; */
+  display: block;
+  padding: 3px;
+  height: 70px;
+  border-radius: 12px 12px 0px 0px;
+  border: 1px solid;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+.head{
+ border:1px solid;
+ width: 400px;
+ margin-left: 450px;
+ height: 400px;
+ margin-top: 180px;
+ text-align: center;
+ justify-content: center;
+ border-radius: 10px;
+ box-shadow: 0 2px 10px rgb(0, 0, 0.1);
+ background: #fff;
+}
+.user{
+ text-align: center;
+ justify-content: center;
+ margin: 20px;
+ 
+
+}
+input{
+  height: 30px;
+  text-align: center;
+}
+i{
+ position: absolute;
+ width: 10px;
+ height: 10px;
+}
+.password{
+ justify-content: center;
+ text-align: center;
+}
+.submit{
+ 
+ text-align: center;
+ justify-content: center;
+}
+.signup{
+ 
+ text-align: center;
+ justify-content: center;
+}
+button{
+ margin: 20px;
+ height: 40px;
+ width: 100px;
+ background: #fff;
+ border: 1px solid;
+ border-radius: 10px;
+ cursor: pointer;
+
+
+}
+.cpassword{
+ justify-content: center;
+ text-align: center;
+}
+.check{
+ display: flex;
+ flex-direction: row;
+}
+.rem{
+ display: flex;
+ flex-direction: row;
+}
+input[type="checkbox"]{
+ margin-left: 5px;
+}
+.forgot-password-container {
+ max-width: 400px;
+ margin: 50px auto;
+ padding: 20px;
+ border: 1px solid #ddd;
+ border-radius: 8px;
+ background-color: #f9f9f9;
+}
+
+
+.forgot-password-form {
+ display: flex;
+ flex-direction: column;
+}
+
+label {
+ font-size: 14px;
+ color: #555;
+ margin-bottom: 5px;
+}
+
+.input-field {
+ padding: 10px;
+ margin-bottom: 15px;
+ font-size: 14px;
+ border: 1px solid #ddd;
+ border-radius: 5px;
+ width: 100%;
+}
+
+.input-field:focus {
+ border-color: #4b89dc;
+ outline: none;
+}
+
+.submit-button {
+ background-color: #4b89dc;
+ color: white;
+ padding: 10px;
+ font-size: 16px;
+ border: none;
+ border-radius: 5px;
+ cursor: pointer;
+ transition: background-color 0.3s ease;
+ width: 100%;
+}
+
+.submit-button:disabled {
+ background-color: #bbb;
+ cursor: not-allowed;
+}
+
+
+.submit-button:hover:not(:disabled) {
+ background-color: #3e78c0;
+}
+
+
+.response-message {
+ text-align: center;
+ color: red;
+ margin-top: 15px;
+ font-size: 14px;
+}
+.table-container {
+  margin: 20px 0;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th, td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+.filter-container {
+  margin-bottom: 15px;
+}
+
+label {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+select {
+  padding: 5px;
+  margin-right: 20px;
+}
+
+.no-users {
+  color: #888;
+  font-style: italic;
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #007bff;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
